@@ -16,11 +16,9 @@ class NewRegistrationController extends GetxController {
 
   Future<void> registerNew(dynamic subjectId, dynamic studentId) async {
     isLoading.value = true;
-    print('studentId : ${studentId}, subjectId : ${subjectId}');
     try {
       final registrationsModel = await listingService.newRegistration(
           subjectId.toString(), studentId.toString());
-      print('new reg responseee   :::: ${registrationsModel.toJson()}');
       Get.back(result: registrationsModel);
     } catch (e) {
       Get.snackbar('Error', 'Failed to register $e');

@@ -48,7 +48,6 @@ class ApiService extends GetConnect implements GetxService {
           response = await get(url, query: queryParams);
           break;
       }
-      print('Response: ${response.body}');
       return response;
     } catch (e) {
       throw Exception("Something went wrong: $e");

@@ -33,7 +33,6 @@ class NewRegistrationScreen extends GetView<NewRegistrationController> {
                       'students': controller.students,
                     })!
                         .then((result) {
-                      print('student : ${result.id} - ${result.name}');
                       controller.selectStudent.value = result.name;
                       controller.studentId.value = result.id.toString();
                     });
@@ -48,7 +47,6 @@ class NewRegistrationScreen extends GetView<NewRegistrationController> {
                       'subjects': controller.subjects,
                     })!
                         .then((result) {
-                      print('subjecttt : ${result.id} - ${result.name}');
                       controller.selectSubject.value = result.name;
                       controller.subjectId.value = result.id.toString();
                     });

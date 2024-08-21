@@ -50,7 +50,6 @@ class RegistrationController extends GetxController
     isLoading.value = true;
     try {
       RegistrationsModel response = await listingService.registrationList();
-      print('asdfg :  ${response.registrations}');
       if (response.registrations != null) {
         registrations.clear();
         registrations.value.addAll(response.registrations ?? []);
