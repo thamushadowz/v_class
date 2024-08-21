@@ -1,0 +1,11 @@
+export 'package:v_class/infrastructure/navigation/bindings/controllers/class_rooms.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/classroom_details.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/new_registration.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/registration.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/registration_details.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/splash.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/student_details.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/students.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/subject_detail.controller.binding.dart'; 
+export 'package:v_class/infrastructure/navigation/bindings/controllers/subjects.controller.binding.dart'; 

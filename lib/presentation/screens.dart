@@ -1,0 +1,11 @@
+export 'package:v_class/presentation/class_rooms/class_rooms.screen.dart';
+export 'package:v_class/presentation/classroom_details/classroom_details.screen.dart';
+export 'package:v_class/presentation/home/home.screen.dart';
+export 'package:v_class/presentation/new_registration/new_registration.screen.dart';
+export 'package:v_class/presentation/registration/registration.screen.dart';
+export 'package:v_class/presentation/registration_details/registration_details.screen.dart';
+export 'package:v_class/presentation/splash/splash.screen.dart';
+export 'package:v_class/presentation/student_details/student_details.screen.dart';
+export 'package:v_class/presentation/students/students.screen.dart';
+export 'package:v_class/presentation/subject_detail/subject_detail.screen.dart';
+export 'package:v_class/presentation/subjects/subjects.screen.dart';
