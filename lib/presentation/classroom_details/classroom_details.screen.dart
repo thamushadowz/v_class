@@ -85,12 +85,14 @@ class ClassroomDetailsScreen extends GetView<ClassroomDetailsController> {
                   ],
                 ),
               ),
-              SingleChildScrollView(
-                child: SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.6,
-                  child: item.layout!.toLowerCase() == 'conference'
-                      ? ConferenceViewWidget(classSize: item.size!.toInt())
-                      : ClassroomViewWidget(noOfItems: item.size!.toInt()),
+              Flexible(
+                child: SingleChildScrollView(
+                  child: SizedBox(
+                    height: MediaQuery.of(context).size.height * 0.7,
+                    child: item.layout!.toLowerCase() == 'conference'
+                        ? ConferenceViewWidget(classSize: item.size!.toInt())
+                        : ClassroomViewWidget(noOfItems: item.size!.toInt()),
+                  ),
                 ),
               ),
             ],
